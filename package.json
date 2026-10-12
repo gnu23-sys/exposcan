@@ -1,0 +1,32 @@
+{
+  "name": "exposcan",
+  "version": "1.0.0",
+  "description": "Zero-dependency scanner for HTTP misconfigurations and exposed secrets — security headers, leaked files (.env, .git, backups), CORS misconfig, cookie flags, and secrets leaked in client-side JS.",
+  "license": "MIT",
+  "author": "GNU23",
+  "type": "commonjs",
+  "bin": {
+    "exposcan": "./bin/exposcan.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "main": "src/scanner.js",
+  "scripts": {
+    "start": "node bin/exposcan.js"
+  },
+  "keywords": [
+    "security",
+    "pentest",
+    "scanner",
+    "misconfiguration",
+    "secrets",
+    "cors",
+    "security-headers",
+    "osint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gnu23-sys/exposcan.git"
+  }
+}
